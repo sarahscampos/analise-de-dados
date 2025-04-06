@@ -1,3 +1,5 @@
+import sys
+
 preco_cenoura = 4.5
 preco_oleo = 10
 preco_fermento = 7.9 
@@ -22,7 +24,15 @@ def soma_preco(tem_cenoura, tem_oleo, tem_fermento, tem_leite, tem_acucar, tem_o
 
     return total
 
-total = soma_preco(True, True, True, True, True, True)
 
-print(total)
-    
+if __name__ == "__main__":
+    terminal_tem_cenoura = sys.argv[1] == "Sim"
+    terminal_tem_oleo = sys.argv[2] == "Sim"
+    terminal_tem_fermento = sys.argv[3] == "Sim"
+    terminal_tem_leite = sys.argv[4] == "Sim"
+    terminal_tem_acucar = sys.argv[5] == "Sim"
+    terminal_tem_ovos = sys.argv[6] == "Sim"
+
+    total = soma_preco(terminal_tem_cenoura, terminal_tem_oleo, terminal_tem_fermento, terminal_tem_leite, terminal_tem_acucar, terminal_tem_ovos)
+
+    print("O total da receita é: R$ ", total)
