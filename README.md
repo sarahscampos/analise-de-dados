@@ -2,7 +2,7 @@
 
 Nesse repositório compartilho o que aprendi no curso **Meus Primeiros Passos em Python** da PrograMaria, explorando conceitos essenciais para Análise de Dados. 
 
-## 📌 Conteúdo
+## Conteúdo
 
 - **Manipulação de Dados em Planilhas:** Uso de bibliotecas como `pandas` para tratamento e organização de dados.
 - **SQL para Análise de Dados:** Consultas SQL para extração e análise eficiente de informações em bases de dados.
@@ -10,7 +10,7 @@ Nesse repositório compartilho o que aprendi no curso **Meus Primeiros Passos em
 - **Visualização de Dados:** Criação de dashboards interativos com **Looker** para representar insights de maneira clara e intuitiva.
 - **Introdução ao Aprendizado de Máquina:** Fundamentos do **Machine Learning**, explorando algoritmos básicos para análise preditiva.
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Google Sheets
 - Python (`pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`)
