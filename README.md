@@ -17,4 +17,3 @@ Nesse repositório compartilho o que aprendi no curso **Meus Primeiros Passos em
 - SQL
 - Looker Studio
 
-![Certificado do curso](https://github.com/user-attachments/assets/c5caf3e1-a895-4e24-92b8-aeb0c1e4eee6)
